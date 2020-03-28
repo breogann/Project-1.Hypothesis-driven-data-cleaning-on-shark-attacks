@@ -1,11 +1,39 @@
-# hipotheses-driven-data-cleaning-on-sharks-attacks #
+<p align="center">
+  <img width="1000" height="300" src="https://github.com/breogann/hipotheses-driven-data-cleaning-on-sharks-attacks/blob/master/Images/cover.png" alt="Data cleaning">
+</p>
 
-Proyecto de la escuela Ironhack sobre gestión y limpieza de datos. En este proyecto utilizamos el fichero csv sobre ataques globales de tiburones (https://www.kaggle.com/teajay/global-shark-attacks/version/1) para formular hipótesis y obtener información.
+# Hypotheses driven data cleaning on sharks attacks
 
-# Hipótesis
+Project on data wrangling. In this project we use a dataset on shark attacks from Kaggle (https://www.kaggle.com/teajay/global-shark-attacks) in order to hypothesize and obtain information.
 
-- Hipótesis 1: Las personas que pescan (con arpón) reciben más ataques que las que realizan otra actividad.
-- Hipótesis 2: Las mujeres sufren menos ataques de tiburones que los hombres.
-- Hipótesis 3: Los registros de ataques son más frecuentes cuanto más nos acercamos a la actualidad
+## Data 📊 ##
 
-*La formulación de hipótesis tiene como objetivo guiar la obtención y filtrado de datos, por lo que el análisis estadístico es más descriptivo que inferencial (y es necesario aplicar pruebas estadísticas de comparación de varianza para poder falsar las hipótesis).
+The dataset is formed by over 5.990 registered cases of shark attacks, including information about: location, activity, age, sex, fatality, reference number and others. 
+
+
+## Hypotheses 🔬 ##
+
+- Hypothesis #1: Spear-fishers are more frequently attacked than peolpe doing any other activity.
+
+- Hypothesis #2: Women are less attacked by sharks than men.
+
+- Hypothesis #3: The more recent the event, the higher the records are.
+
+
+*Formulation of hypotheses drives the obtention and filtering of data. The performed statistical analysis is more descriptive than inferential (and so it would be needed to apply variance statistical test in order to test the hypotheses).
+
+## Data processing 🛠 ## 
+
+- Elimination of redundant information (dropping unnecessary columns)
+- Elimination of incomplete or faulty registers
+- Standarization (of column names and data)
+- Cluttering conditions (eg.: spear-fishers & fatality)
+- Comparisons of total and relative events
+- Visualization of data
+
+
+#### Used technologies (libraries) 🔌: ####
+- Pandas
+- Numpy
+- Matplot lib
+
